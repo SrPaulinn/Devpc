@@ -1,0 +1,248 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    header{
+        text-align: center;
+        background-color: black;
+        color: whitesmoke;
+    }
+    h1{
+    text-align: center;
+    }
+    nav{
+        background-color: black;
+        color: rgb(255, 255, 255);
+        padding: 5px;
+        width: 100%;
+    }
+    section{
+        text-align: center;
+    }
+    .principaldestaque{
+    display: flex;
+    }
+    .ryzenimg{
+    margin-left: 750px;
+    text-align: center;
+    height: 400px;
+    }
+    .perifericos{
+        margin-top: 50px;
+        font-family: cursive;
+    }
+    .blocos{
+        margin-left: 250px;
+        display: flex;
+        margin-right: 10px;
+    }
+    .imgteclado{
+       
+        display: flex;
+        margin-top: 30px;
+        margin-left:  150px;
+        width: 150px; 
+    }
+    .tecladotext{
+        padding: 10px;
+        background-color: black;
+        display: flex;
+        margin-top: 30px;
+        margin-left:  150px;
+        width: 150px; 
+        color: aliceblue;
+        border-radius: 15px;  
+    }
+    .imgmouse{
+        text-align: center;
+        display: flex;
+        margin-top: 30px;
+        margin-left:  150px;
+        width: 150px; 
+    }
+    .mousetext{
+        padding: 10px;
+        background-color: black;
+        display: flex;
+        margin-top: 30px;
+        margin-left:  150px;
+        width: 150px; 
+        color: aliceblue;
+        border-radius: 15px;  
+    }
+    .headsettext{
+        padding: 10px;
+        background-color: black;
+        display: flex;
+        margin-top: 30px;
+        margin-left:  150px;
+        width: 150px; 
+        color: aliceblue;
+        border-radius: 15px;
+    }
+    .imgheadset{
+        text-align: center;
+        display: flex;
+        margin-top: 30px;
+        margin-left:  150px;
+        width: 150px; 
+    }
+    .mousepadtext{
+        padding: 10px;
+        background-color: black;
+        display: flex;
+        margin-top: 30px;
+        margin-left:  150px;
+        width: 150px; 
+        color: aliceblue;
+        border-radius: 15px;
+    }
+    .imgmousepad{
+        text-align: center;
+        display: flex;
+        margin-top: 30px;
+        margin-left:  150px;
+        width: 150px; 
+    }
+    .bloco2{
+        margin-left: 250px;
+        text-align: center;
+        display: flex;
+    }
+    .imggabi{
+        text-align: center;
+        display: flex;
+        margin-top: 30px;
+        margin-left:  150px;
+        width: 150px; 
+    }
+    .gabitext{
+        padding: 10px;
+        background-color: black;
+        display: flex;
+        margin-top: 30px;
+        margin-left:  150px;
+        width: 150px; 
+        color: aliceblue;
+        border-radius: 15px;
+    }
+    .imgmicro{
+        text-align: center;
+        display: flex;
+        margin-top: 30px;
+        margin-left:  150px;
+        width: 150px;
+     }
+     .microtext{
+        padding: 10px;
+        background-color: black;
+        display: flex;
+        margin-top: 30px;
+        margin-left:  150px;
+        width: 150px; 
+        color: aliceblue;
+        border-radius: 15px;
+    }
+    .imgcombo{
+        text-align: center;
+        display: flex;
+        margin-top: 30px;
+        margin-left:  150px;
+        width: 150px;
+    }
+    .combotext{
+        padding: 10px;
+        background-color: black;
+        display: flex;
+        margin-top: 30px;
+        margin-left:  150px;
+        width: 150px; 
+        color: aliceblue;
+        border-radius: 15px;
+    }
+    .imgweb{
+        text-align: center;
+        display: flex;
+        margin-top: 30px;
+        margin-left:  150px;
+        width: 150px;
+    }
+    .webtext{
+        padding: 10px;
+        background-color: black;
+        display: flex;
+        margin-top: 30px;
+        margin-left:  150px;
+        width: 150px; 
+        color: aliceblue;
+        border-radius: 15px;
+    }
+    * {
+    
+        margin: 0;
+        padding: 0;
+     
+      }
+      
+    
+      footer {
+        margin-top: 120px;
+        background-color: #000000;
+        color: #fff;
+        padding: 20px 0;
+      }
+      
+      .home {
+       
+        max-width: 1200px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .footer-links a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 20px;
+      }
+      
+      .footer-info  {
+        text-align: center;
+        margin-bottom: 5px;
+      }
+      
+      .emdestaque{
+        animation: changeColor 5s infinite;
+      }
+      
+      @keyframes changeColor {
+        0% { color: red; } 
+        25% { color: blue; }
+        50% { color: green; } 
+        75% { color: purple; }
+        100% { color: red; } 
+      }
+    
+      a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    a:hover {
+        color: rgb(0, 238, 255); /* Cor quando o mouse está sobre o link */
+    }
+    
+    .h3 {
+        color: rgb(255, 0, 0);  
+    }
+    
+    .ryzen1text{
+        text-align: center;
+        background-color: black;
+        margin-top: 90px;
+        padding: 40px;
+        border-radius: 5px;   
+        margin-right: 0px;
+    }
+    
